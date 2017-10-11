@@ -1,0 +1,199 @@
+@charset="utf-8";
+
+/*
+	Part of this stylesheet has been created with WebHelpers.
+	See more at https://sloa.dk/WebHelpers
+ */
+
+html {
+	height: 100%;
+	width : 100%;
+	font-size: 100%;
+}
+
+body {
+  height    : 100%;
+  width     : 100%;
+  overflow-y: scroll;
+  background-image   : url(../media/bg.jpg); 
+  background-size    : cover;
+  background-position: center;
+  background-repeat  : fixed no-repeat;
+  background-attachment: fixed;
+  font-family: Helvetica, sans-serif;
+  background-
+}
+
+/* Reset all margin and padding */
+* {
+	margin : 0;
+	padding: 0;
+}
+
+/* Fix Image Sizes */
+img {
+	height: auto !important;
+	width : 100%;
+}
+
+/* Collapse table border */
+table, td {
+	border-collapse: collapse;
+}
+@media (min-width: 640px) {
+  html {
+    font-size: 112%; } }
+@media (min-width: 1024px) {
+  html {
+    font-size: 120%; } }
+a {
+  color: #00bfff;
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5 {
+  margin-top: .5em; }
+
+p {
+  font-size: 1em;
+  line-height: 1.45em;
+  margin: 0.5em 0; }
+
+.justify {
+  text-align: justify; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.mobile-only {
+  display: none;
+  visibility: none; }
+
+@media (max-width: 1100px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+  .col-7, .col-8, .col-9, .col-10, .col-11 {
+    width: 100%; }
+
+  .no-mobile {
+    display: none;
+    visibility: none; }
+
+  .mobile-only {
+    display: block;
+    visibility: visible; } }
+* {
+  box-sizing: border-box; }
+
+.row:after {
+  clear: both;
+  content: " ";
+  display: table; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix {
+  *zoom: 1;
+  clear: both; }
+
+[class*="col-"] {
+  float: left;
+  padding: 1rem; }
+
+.right {
+  float: right; }
+
+.blue {
+  color: #337ab7; }
+
+.green {
+  color: #5cb85c; }
+
+.lightblue {
+  color: #5bc0de; }
+
+.yellow {
+  color: #f0ad4e; }
+
+.red {
+  color: #d9534f; }
+
+.bg-blue {
+  background-color: #337ab7; }
+
+.bg-green {
+  background-color: #5cb85c; }
+
+.bg-lightblue {
+  background-color: #5bc0de; }
+
+.bg-yellow {
+  background-color: #f0ad4e; }
+
+.bg-red {
+  background-color: #d9534f; }
+
+.gray {
+  color: #555; }
+
+.gray-darker {
+  color: #333; }
+
+.gray-darkest {
+  color: #222; }
+
+.gray-lighter {
+  color: #777; }
+
+.gray-lightest {
+  color: #eee; }
+
+.bg-gray {
+  background-color: #555; }
+
+.bg-gray-darker {
+  background-color: #333; }
+
+.bg-gray-darkest {
+  background-color: #222; }
+
+.bg-gray-lighter {
+  background-color: #777; }
+
+.bg-gray-lightest {
+  background-color: #eee; }
+
+/*# sourceMappingURL=new.css.map */

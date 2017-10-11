@@ -1,0 +1,22 @@
+
+.errorContainer {
+    position: absolute;
+    width:100%;
+    padding:10px;
+    background-color: #d9534f;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.closeErr {
+    background: none;
+    border:none;
+    color:whitesmoke;
+    margin-top:3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropContainer {
+    background-color: rgba(255,255,255,.2);
+}

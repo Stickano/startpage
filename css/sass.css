@@ -1,0 +1,287 @@
+@font-face {
+  font-family: defaultRightColumn;
+  src: url("../font/PoiretOne-Regular.ttf"); }
+.time {
+  text-align: right;
+  font-family: defaultRightColumn;
+  font-size: 92px;
+  color: whitesmoke; }
+
+.date {
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 3px;
+  min-width: 0px;
+  font-weight: bold;
+  letter-spacing: .9px; }
+
+.mainWeather {
+  font-size: 48px;
+  font-family: defaultRightColumn;
+  background-color: rgba(85, 85, 85, 0.6);
+  border-radius: 3px;
+  color: whitesmoke;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2); }
+
+.weatherDetails {
+  color: whitesmoke;
+  background-color: rgba(85, 85, 85, 0.6);
+  text-overflow: hidden; }
+
+.weatherTime {
+  font-size: 80%;
+  padding: 0;
+  color: rgba(51, 51, 51, 0.4);
+  text-shadow: 0px 1px 0px rgba(85, 85, 85, 0.5); }
+
+.windDirection {
+  font-size: 220%;
+  float: left;
+  line-height: 26px; }
+
+.windDirCon {
+  padding-left: 27px;
+  border-top: 1px solid rgba(51, 51, 51, 0.4);
+  padding-bottom: 0px; }
+
+.windSpeedCon {
+  padding-left: 27px;
+  border-top: 1px solid rgba(51, 51, 51, 0.4); }
+
+.weatherRow {
+  padding: 35px 15% 0 15%; }
+
+.searchField {
+  margin-top: 10px;
+  margin-left: 5%;
+  font-size: 18px;
+  padding: 10px 5px;
+  border-radius: 5px 0 0 5px;
+  border: 0;
+  padding-right: 0;
+  margin-right: 0;
+  outline: none;
+  width: 85%; }
+
+.searchButton {
+  cursor: pointer;
+  margin-left: -1px;
+  padding-left: 0;
+  font-family: FontAwesome;
+  font-size: 19px;
+  padding: 11px 10px;
+  border-radius: 0 5px 5px 0;
+  border: 0;
+  background-color: white;
+  min-width: 5%; }
+
+.searchButton:hover {
+  color: whitesmoke; }
+
+.searchButton:hover {
+  background-color: #337ab7; }
+
+.searchContainer {
+  margin-top: 140px; }
+
+.startpageLogo {
+  margin-left: 6%;
+  width: 5%; }
+
+.greeting {
+  color: whitesmoke;
+  font-family: defaultRightColumn;
+  font-size: 58px;
+  margin-left: 25px;
+  font-weight: bold; }
+
+.urlCategories {
+  color: #337ab7;
+  font-family: defaultRightColumn;
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+.urlHyper {
+  color: #337ab7;
+  margin-left: 20px; }
+
+.urlDescription {
+  margin-left: 35px;
+  color: whitesmoke; }
+
+.linkCol {
+  padding-top: 10px;
+  padding-bottom: 0; }
+
+.catSwitch {
+  border: none;
+  background: none;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(51, 51, 51, 0.4);
+  cursor: pointer;
+  font-size: 120%;
+  margin-top: 11px;
+  outline: none; }
+
+#addCat {
+  margin: 5px 10px 2px 25%; }
+
+#chooseCat {
+  margin: 5px 10px 0 25%;
+  background-color: white; }
+
+.errorContainer {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  background-color: #d9534f;
+  text-align: center;
+  color: whitesmoke; }
+
+.closeErr {
+  background: none;
+  border: none;
+  color: whitesmoke;
+  margin-top: 3px;
+  cursor: pointer;
+  outline: none; }
+
+.dropContainer {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.noteContainer {
+  width: 100%;
+  color: #333;
+  padding: 0 30px 0 30px;
+  font-size: 80%;
+  line-height: 1.2em;
+  text-align: justify;
+  border-left: 3px solid rgba(51, 51, 51, 0.1);
+  word-wrap: break-word; }
+
+.noteDateContainer {
+  font-size: 60%;
+  font-color: #555;
+  padding: 0 0 5px 33px; }
+
+.delNoteButton {
+  color: #d9534f;
+  text-shadow: none;
+  border: none;
+  background: none;
+  font-size: 140%;
+  margin-right: 10px;
+  cursor: pointer; }
+
+.delNoteButton:hover {
+  color: red; }
+
+#unlockPassword {
+  text-align: center; }
+
+.settingsInputContainer {
+  color: rgba(81, 81, 81, 0.9);
+  font-size: 80%;
+  margin: 0;
+  padding: 3px 25px 2px 25px; }
+
+.settingInfo {
+  padding-top: 15px;
+  float: left; }
+
+.settingInfoUrl {
+  color: rgba(81, 81, 81, 0.9);
+  font-weight: 500; }
+
+.settingHeadline {
+  border-bottom: 1px solid rgba(81, 81, 81, 0.2);
+  color: rgba(81, 81, 81, 0.8);
+  font-size: 70%;
+  margin-bottom: 10px; }
+
+.settingsNotice {
+  color: #d9534f;
+  font-size: 95%;
+  margin-left: 20px; }
+
+.inputDefault {
+  width: 50%;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 5px 25% 0 25%;
+  border: 0;
+  outline: none;
+  float: left; }
+
+.inputArea {
+  width: 50%;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  margin: 5px 25% 0 25%;
+  border: 0;
+  float: left;
+  outline: none; }
+
+.inputSubmit {
+  font-size: 18px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  color: black;
+  font-size: 60%;
+  outline: none;
+  margin: 5px 25% 0; }
+
+.inputSubmit:hover {
+  background-color: #337ab7;
+  color: whitesmoke; }
+
+.hiddenSubmit {
+  position: absolute;
+  z-index: 0;
+  left: -9999px; }
+
+.settingsInput {
+  width: 35%;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: 0;
+  outline: none; }
+
+.settingsSubmit {
+  margin-right: 0; }
+
+.menuButtonContainer {
+  text-align: right;
+  padding-top: 0;
+  padding-right: 6%;
+  border-bottom: 1px solid rgba(81, 81, 81, 0.2);
+  color: whitesmoke; }
+
+.menuButton {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 100%;
+  margin: 5px 15px 0 0;
+  outline: none;
+  text-shadow: 1px 1px 2px rgba(51, 51, 51, 0.4); }
+
+.menuButton:hover {
+  color: white; }
+
+#openWeather {
+  margin-right: 8px; }
+
+#delUrls {
+  color: #d9534f;
+  cursor: pointer; }
+
+/*# sourceMappingURL=sass.css.map */

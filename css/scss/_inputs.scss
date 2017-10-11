@@ -1,0 +1,59 @@
+
+.inputDefault {
+    width:50%;
+    font-size: 14px;
+    padding:10px 5px;
+    border-radius: 5px;
+    margin:5px 25% 0 25%;
+    border:0;
+    outline:none;
+    float:left;
+}
+
+.inputArea {
+    width:50%;
+    font-size: 14px;
+    padding:10px 5px;
+    border-radius: 5px;
+    margin:5px 25% 0 25%;
+    border:0;
+    float:left;
+    outline:none;
+}
+
+.inputSubmit {
+    font-size: 18px;
+    padding:7px 10px;
+    border-radius: 5px; 
+    cursor: pointer;
+    border:0;
+    background-color: white;
+    color:black;
+    font-size: 60%;
+    outline:none;
+    margin:5px 25% 0;
+}
+
+.inputSubmit:hover {
+    background-color: #337ab7;
+    color:whitesmoke;
+}
+
+.hiddenSubmit {
+    position:absolute;
+    z-index: 0;
+    left:-9999px;
+}
+
+.settingsInput {
+    width:35%;
+    font-size: 14px;
+    padding:10px 5px;
+    border-radius: 5px;
+    border:0;
+    outline:none;
+}
+
+.settingsSubmit{
+    margin-right:0;
+}

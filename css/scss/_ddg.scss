@@ -1,0 +1,51 @@
+
+.searchField {
+    margin-top:10px;
+    margin-left:5%;
+    font-size: 18px;
+    padding:10px 5px;
+    border-radius: 5px 0 0 5px;
+    border:0;
+    padding-right:0;
+    margin-right:0;
+    outline: none;
+    width:85%;
+}
+
+.searchButton {
+    cursor: pointer;
+    margin-left:-1px;
+    padding-left:0;
+    font-family: FontAwesome;
+    font-size: 19px;
+    padding:11px 10px;
+    border-radius: 0 5px 5px 0;
+    border:0;
+    background-color:white;
+    min-width:5%;
+}
+
+.searchButton:hover{
+    color: whitesmoke;
+}
+
+.searchButton:hover {
+    background-color:#337ab7;
+}
+
+.searchContainer {
+    margin-top: 140px;
+}
+
+.startpageLogo {
+    margin-left:6%;
+    width: 5%;
+}
+
+.greeting {
+    color:whitesmoke;
+    font-family: defaultRightColumn;
+    font-size: 58px;
+    margin-left: 25px;
+    font-weight: bold;
+}
