@@ -139,7 +139,7 @@ class IndexController{
             #$this->session->set('error', 'It appears you have run out of interwebs');
             return false;
         }else{
-            fclose($socket);
+            #fclose($socket);
             return true;
         }
     }
