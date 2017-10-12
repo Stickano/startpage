@@ -12,6 +12,7 @@ Ever wanted a startpage that served an actual useful purpose? Well, here's the b
 * [Settings](#settings)
 * [Bookmarks](#bookmarks)
 * [Notes](#notes)
+* [Weather](#weather)
 
 <br><br>
 ### Overview
@@ -44,7 +45,7 @@ Besides that, quite a few models from my own [Web Helpers](https://github.com/St
 <br><br>
 
 ### Installation
-In order for this project to work its full potential, one must first provide a database for it to store data. PHP is the language of choice for this project, so this has to be installed as well. Now, you might be thinking "Database, server, PHP.. ugh, next year maybe". But in fact it is very simple to get these requirements. Download the [XAMP](https://www.apachefriends.org/index.html) (Windows) package, which will install PHP and set up an Apache environment (server/database) with no particular interaction, unless you want to configure you server of course which is beyond the scope of these setup instructions. 
+In order for this project to work its full potential, one must first provide a database for it to store data. PHP is the language of choice for this project, so this has to be installed as well. Now, you might be thinking "Database, server, PHP.. ugh, next year maybe". But in fact it is very simple to get these requirements. Download the [XAMP](https://www.apachefriends.org/index.html) (Windows) package, which will install PHP and set up an Apache environment (server/database) with no particular interaction. Unless you want to configure you server of course which is beyond the scope of these setup instructions. 
 
 Once you have your Apache environment up and running, open the `index.php` document and navigate to the Settings page. From here you are able to provide some basic information to connect to your database. You probably went through a step where you provided credentials for your database. These credentials comes in handy at this next step.
 
@@ -81,4 +82,10 @@ A manual way of installing the database is also available through the included `
  You can change your password on the Settings page at any time - The logic will handle the encryption actions between passwords. 
  
  When a password is set, adding and deleting notes only becomes available when the panel is unlocked.
+ <br><br>
  
+ ### Weather
+ Once the API key and City ID is provided in the settings menu ([OWM](http://openweathermap.org)) the weather page will be available. Here you can keep track of current and tomorrows weather in a nice, little presented way. <br>
+<p align="center"><img src="https://github.com/Stickano/startpage/blob/master/preview/weather.png"/></p>
+<br><br>
+The Weather API presents a few key informations, with a nice little followed icon which also present some value. You'll quickly be able to estimate if you should bring that umbrella with the current weather information/icon. The temperature will let you know to put on that sweater and the wind direction/speed is just nice-to-haves. The icon for the wind speed will change accordingly to the wind degree. 
