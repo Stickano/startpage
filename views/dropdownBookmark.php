@@ -3,7 +3,7 @@
 # Add URL
 echo'<div class="col-12 dropContainer" id="addUrlContainer">';
     echo'<form method="post" id="linkForm">';
-        echo'<input type="text" class="inputDefault" name="url" placeholder="Url" />';
+        echo'<input type="text" class="inputDefault" id="newUrl" name="url" placeholder="Url" />';
         echo'<input type="text" class="inputDefault" name="head" placeholder="Headline" />';
         echo'<select class="inputDefault" name="category" id="chooseCat">';
             foreach ($controller->getCategories() as $key) {

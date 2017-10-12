@@ -133,7 +133,7 @@ $(document).ready(function(){
         $("#addUrlContainer").slideToggle(50, function(){
             $("#chooseCat").show();
             $("#linkForm").fadeToggle(300);
-            $(".inputUrl").focus();
+            $("#newUrl").focus();
         });
         
         // When changing between adding/chossing category, reset input names
