@@ -123,26 +123,21 @@ class IndexController{
         }
     }
 
-    /**
+     /**
      * Checks if we're connected to the interwebs
      * @return boolean true/false
      */
-    # TODO: Thread this shit.
-    # FIXME: Doesn't rly work, does it now.. 
-    #       Read and reset before checkErrors()
-    #       Doesn't head so the error isn't read.
     private function isConnected(){
-        #$socket = @fsockopen('www.example.com', 80);
-        $socket = true;
+        $socket = @fsockopen('www.example.com', 80);
         if(!$socket){
-            #fclose($socket);
-            #$this->session->set('error', 'It appears you have run out of interwebs');
+            fclose($socket);
+            $this->session->set('error', 'It appears you have run out of interwebs');
             return false;
         }else{
-            #fclose($socket);
+            fclose($socket);
             return true;
         }
-    }
+    }   
 
     /**
      * Checks if any errors, sets $error and unsets session
@@ -169,7 +164,7 @@ class IndexController{
      * This needs to be a function, such that when you create your first pw, 
      * we can encrypt the notes without refreshing the page. Else it's only 
      * run from the constructor.
-     * @return [type] [description]
+     * @return        Sets $crypt
      */
     private function initCrypt(){
         $this->crypt = new Crypto();
@@ -327,6 +322,9 @@ class IndexController{
         header("location:".$this->client->getUrl()."#notes");
     }
 
+    /**
+     * Will change a value in db to lock the notes
+     */
     public function lockNotes(){
         $val = array('locked' => 1);
         $this->db->update('noteSettings', $val);
