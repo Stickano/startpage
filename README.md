@@ -3,7 +3,7 @@ A practical startpage for your browser.
 
 Ever wanted a startpage that served an actual useful purpose? Well, here's the beginning of one such at least. With this startpage you have what seems most logic to have nearby in your browser environment. It serves as a Bookmark keeper, a note taker and a nice way to keep track of current and comming weather. 
 
-<p align="center"><img src="https://github.com/Stickano/startpage/blob/master/preview/bookmarks.png" /></p>
+<p align="center"><a href="https://www.youtube.com/watch?v=bYsIQXgQAA4"><img src="https://github.com/Stickano/startpage/blob/master/preview/bookmarks.png" /></a></p>
 
 <br><br>
 ## Table of Content
@@ -16,7 +16,7 @@ Ever wanted a startpage that served an actual useful purpose? Well, here's the b
 
 <br><br>
 ### Overview
-This project runs on a database - any database will do, be it local or some online host. The project will install itself - or the database at least - once you provide it with some valid server credentials. If you're in doubt about all this technical twaddle, follow the installations steps below. It is fairly simple and will not take more than a couple of minutes of your time. 
+This project runs on a database - any database will do, be it local or some online host. The project will install itself - or the database at least - once you provide it with some valid server credentials.
 
 The project has the ability to encrypt your notes. For this to take effect you first has to provide a password in the settings panel. The encryption of your notes happens with a AES-256-ctr encryption which should be sufficient for this usage. 
 
@@ -45,11 +45,13 @@ Besides that, quite a few models from my own [Web Helpers](https://github.com/St
 <br><br>
 
 ### Installation
-In order for this project to work its full potential, one must first provide a database for it to store data. PHP is the language of choice for this project, so this has to be installed as well. Now, you might be thinking "Database, server, PHP.. ugh, next year maybe". But in fact it is very simple to get these requirements. Download the [XAMP](https://www.apachefriends.org/index.html) (Windows) package, which will install PHP and set up an Apache environment (server/database) with no particular interaction. Unless you want to configure you server of course which is beyond the scope of these setup instructions. 
+In order for this project to work its full potential, one must first provide a database for it to store data. PHP is the language of choice for this project, so this has to be installed as well. 
 
-Once you have your Apache environment up and running, open the `index.php` document and navigate to the Settings page. From here you are able to provide some basic information to connect to your database. You probably went through a step where you provided credentials for your database. These credentials comes in handy at this next step.
+If you already have a live host, just point this site to that host along with the credentials. 
 
-You'll be presented with 3 input fields - A host, username and password. Provide the username & password as you created during the XAMP installation and point the host to `localhost`. That's it. 
+If you want this locally (on you machine), this can also easily be done with the [XAMP](https://www.apachefriends.org/index.html) package. Installation and configuration for XAMP is beyong the scope of this guide.
+
+Once you have your Apache environment up and running, download and place this project inside you `<Document Root>` and open the `index.php` document where you can navigate to the Settings page. From here you are able to provide the connection to your database. 
 
 You now have access to Bookmarks and Notes. If you want the Weather API, first create an account at [OWM](https://openweathermap.org/). It is a free service of course and your account/usage will only be used for statistical purposes. It will leave you with an API-key, though, which you can paste into the Settings page to get the weather forecast up and running. You will also have to provide a City ID, which can be found [at their site](http://openweathermap.org/help/city_list.txt) (ctrl-f is your friend).
 
